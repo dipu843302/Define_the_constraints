@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="411dp"
+            android:layout_height="54dp"
+            android:background="#0583EA"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="16.5dp"
+                android:layout_marginLeft="17dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:text="What topic do you love?"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="47dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="31dp"
+                android:background="#0583EA"
+                android:text="Books"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="211dp"
+                android:background="#F0F2F3"
+                android:text="Podcasts"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="164dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="31dp"
+                android:background="#F0F2F3"
+                android:text="News"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="211dp"
+                android:background="#F0F2F3"
+
+                android:text="Business"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="259dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="31dp"
+                android:background="#F0F2F3"
+                android:text="Entertainment"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="211dp"
+                android:background="#0583EA"
+
+                android:text="Sports"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="357dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="31dp"
+                android:background="#0583EA"
+                android:text="Technology"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="211dp"
+                android:background="#FBFBFB"
+
+                android:text="Pronunciation"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="450dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="31dp"
+                android:background="#F2F4F6"
+                android:text="Grammer"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+
+            <Button
+                android:layout_width="165dp"
+                android:layout_height="68dp"
+                android:layout_marginLeft="211dp"
+                android:background="#FBFBFB"
+
+                android:text="Health"
+                android:textColor="#0583EA"
+                android:textStyle="bold"
+                app:backgroundTint="@color/white" />
+        </RelativeLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginTop="521sp"
+                android:background="#0583EA"
+                android:text="Continue"
+                android:textColor="#F1F2F3"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                app:backgroundTint="#0583EA" />
+
+    </RelativeLayout>
+</LinearLayout>
